@@ -5,7 +5,7 @@ Welcome to Sassifrass.
 
 Sassifrass is an open source, basic Sass file structure influenced by SMACSS.
 
-Many thanks to the teachings of Dale Sande, AKA [anotherUIguy](https://speakerdeck.com/anotheruiguy).
+Many thanks to the teachings of Dale Sande, AKA [anotheruiguy](https://speakerdeck.com/anotheruiguy).
 
 Copyright (c) 2014 Brian Studwell
 
