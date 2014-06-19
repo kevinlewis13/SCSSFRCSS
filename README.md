@@ -1,11 +1,12 @@
-Sassifrass
+SCSSFRCSS
 ==========
 
-Welcome to Sassifrass.
+Welcome to SCSSFRCSS.
 
-Sassifrass is an open source, basic Sass file structure influenced by SMACSS.
+SCSSFRCSS is an open source, basic Sass file structure influenced by SMACSS.
 
 Many thanks to the teachings of Dale Sande, AKA [anotheruiguy](https://speakerdeck.com/anotheruiguy).
+Props to jdubjdub for the name.
 
 Copyright (c) 2014 Brian Studwell
 
