@@ -5,6 +5,22 @@ Welcome to SCSSFRCSS.
 
 SCSSFRCSS is an open source, basic Sass file structure influenced by SMACSS.
 
+CHANGING FILE EXTENSIONS VIA THE COMMAND LINE
+=============================================
+
+If you are interested in working with `.scss` files instead of the standard `.sass` files to faciliate more easily readable and structurable logic, simply enter the cd into the sassafrass directory and run
+
+`find -name '*.sass' -exec rename -n 's/sass$/scss/' {} \;`
+
+in the command line.  If working in a rails environment, enter
+
+`find -name '*.sass' -exec rename -n 's/sass$/css.scss/' {} \;`.
+
+The `-n` flag will run through the directory and list all the files that it thinks you want to change.  If the listing is correct, simply rerun the command, replacing the `-n` with a `-v`.
+
+The `sass$` insures that a file that contains "sass" will not be changed; it only looks at the end of the file, i.e. `sass.sass` will become `sass.scss`.
+
+
 Many thanks to the teachings of Dale Sande, AKA [anotheruiguy](https://speakerdeck.com/anotheruiguy).
 Props to jdubjdub for the name.
 
