@@ -21,6 +21,18 @@ The `sass$` insures that a file that contains "sass" will not be changed; it onl
 
 ***
 
+##INSTALL SCSSFRCSS
+
+To install, enter
+
+    bower install sassafrass
+
+on the command line. The files will download and install to a directory titled `bower_components`.
+
+Move the files you want into your styles directory and delete the rest.
+
+***
+
 Many thanks to the teachings of Dale Sande, AKA [anotheruiguy](https://speakerdeck.com/anotheruiguy).
 Props to jdubjdub for the name.
 
